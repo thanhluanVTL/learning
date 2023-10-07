@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+code/minio_39
+minio-docker/data/
+code/examples/
