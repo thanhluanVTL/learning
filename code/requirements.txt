@@ -1,5 +1,0 @@
-minio
-s3fs
-pandas
-python-dotenv
-fastparquet
