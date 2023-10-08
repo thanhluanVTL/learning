@@ -3,3 +3,4 @@ __pycache__/
 code/minio_39
 minio-docker/data/
 code/examples/
+minio_env/

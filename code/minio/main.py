@@ -1,3 +1,4 @@
+import time
 from minio_handler import MinioHandler
 
 minio_client = MinioHandler()
@@ -19,5 +20,9 @@ print(list_objects)
 # df = minio_client.read_parquet_to_df(bucket_name, object_name_prefix="get_all_cust.parquet")
 # print(df)
 
+
+start_time = time.time()
 df = minio_client.read_list_parquet_to_df(bucket_name, object_name_prefix="get_all_cust")
 print(df)
+end_time = time.time()
+print("--- %s seconds ---" % (end_time - start_time))
