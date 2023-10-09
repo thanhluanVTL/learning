@@ -1,0 +1,5 @@
+pandas
+python-dotenv
+fastparquet
+pyarrow
+s3fs
