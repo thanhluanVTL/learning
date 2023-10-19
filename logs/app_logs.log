@@ -1,0 +1,41 @@
+2023-10-20 06:15:11,904 asyncio DEBUG Using proactor: IocpProactor
+2023-10-20 06:15:37,050 main INFO rid=WSQ17P start request path=/test
+2023-10-20 06:15:37,051 main INFO request /test endpoint!
+2023-10-20 06:15:37,051 function INFO START FUNCTION
+2023-10-20 06:15:37,051 function DEBUG RESULT IS: 60
+2023-10-20 06:15:37,052 function ERROR FINISHED FUNCTION
+2023-10-20 06:15:37,052 main INFO rid=WSQ17P completed_in=2.00ms status_code=200
+2023-10-20 06:16:27,638 asyncio DEBUG Using proactor: IocpProactor
+2023-10-20 06:16:31,828 main INFO rid=VUJHQ5 start request path=/test
+2023-10-20 06:16:31,830 main INFO request /test endpoint!
+2023-10-20 06:16:31,832 function INFO START FUNCTION
+2023-10-20 06:16:31,832 function DEBUG RESULT IS: 60
+2023-10-20 06:16:31,836 function ERROR FINISHED FUNCTION
+2023-10-20 06:16:31,836 main INFO rid=VUJHQ5 completed_in=6.00ms status_code=200
+2023-10-20 06:17:42,123 asyncio DEBUG Using proactor: IocpProactor
+2023-10-20 06:17:49,107 main INFO rid=V06WJ3 start request path=/test
+2023-10-20 06:17:49,108 main INFO request /test endpoint!
+2023-10-20 06:17:49,109 function INFO START FUNCTION
+2023-10-20 06:17:49,114 function DEBUG RESULT IS: 60
+2023-10-20 06:17:49,114 function ERROR FINISHED FUNCTION
+2023-10-20 06:17:49,116 main INFO rid=V06WJ3 completed_in=8.00ms status_code=200
+2023-10-20 06:18:50,010 asyncio DEBUG Using proactor: IocpProactor
+2023-10-20 06:18:56,888 main INFO rid=75IZAT start request path=/test
+2023-10-20 06:18:56,889 main INFO request /test endpoint!
+2023-10-20 06:18:56,889 function INFO START FUNCTION
+2023-10-20 06:18:56,890 function DEBUG RESULT IS: 60
+2023-10-20 06:18:56,890 function ERROR FINISHED FUNCTION
+2023-10-20 06:18:56,891 main INFO rid=75IZAT completed_in=3.00ms status_code=200
+2023-10-20 06:19:48,339 main INFO rid=T0AHEU start request path=/test
+2023-10-20 06:19:48,341 main INFO request /test endpoint!
+2023-10-20 06:19:48,342 function INFO START FUNCTION
+2023-10-20 06:19:48,343 function DEBUG RESULT IS: 60
+2023-10-20 06:19:48,343 function ERROR FINISHED FUNCTION
+2023-10-20 06:19:48,343 main INFO rid=T0AHEU completed_in=2.00ms status_code=200
+2023-10-20 06:21:42,066 asyncio DEBUG Using proactor: IocpProactor
+2023-10-20 06:21:44,868 main INFO rid=RDLJ7B start request path=/test
+2023-10-20 06:21:44,869 main INFO request /test endpoint!
+2023-10-20 06:21:44,870 function INFO START FUNCTION
+2023-10-20 06:21:44,871 function DEBUG RESULT IS: 60
+2023-10-20 06:21:44,871 function ERROR FINISHED FUNCTION
+2023-10-20 06:21:44,872 main INFO rid=RDLJ7B completed_in=3.00ms status_code=200
