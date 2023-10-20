@@ -17,14 +17,9 @@ tz = timezone('Asia/Ho_Chi_Minh')
 
 logging.Formatter.converter = timetz
 
-logging.basicConfig(filename="logs/app_logs.log", filemode='a', format="%(asctime)s %(name)s %(levelname)s %(message)s", level=logging.DEBUG)
+logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+# logging.basicConfig(filename="logs/app_logs.log", filemode='a', format="%(asctime)s %(name)s %(levelname)s %(message)s", level=logging.DEBUG)
 # logging.basicConfig(filename="/simple_app/logs/app_logs.log", filemode='a', format="%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s", level=logging.INFO)
-
-
-# logging.config.fileConfig('logging.conf', disable_existing_loggers=False)
-
-# logger = logging.getLogger("luan")
-# logger = logging.getLogger(__name__)
 
 stream_log = logging.StreamHandler()
 stream_log.setFormatter(logging.Formatter("%(asctime)s -- %(name)s -- %(levelname)s -- %(message)s"))
@@ -34,7 +29,17 @@ stream_log.setLevel(logging.INFO)
 debug_log = logging.FileHandler("logs/debug.log")
 debug_log.setFormatter(logging.Formatter("%(asctime)s -- %(name)s -- %(levelname)s -- %(message)s"))
 debug_log.setLevel(logging.DEBUG)
-# debug_log.addFilter(LoggingLevelFilter(logging.INFO))
+debug_log.addFilter(LoggingLevelFilter(logging.DEBUG))
+
+info_log = logging.FileHandler("logs/info.log")
+info_log.setFormatter(logging.Formatter("%(asctime)s -- %(name)s -- %(levelname)s -- %(message)s"))
+info_log.setLevel(logging.INFO)
+info_log.addFilter(LoggingLevelFilter(logging.INFO))
+
+warning_log = logging.FileHandler("logs/warning.log")
+warning_log.setFormatter(logging.Formatter("%(asctime)s -- %(name)s -- %(levelname)s -- %(message)s"))
+warning_log.setLevel(logging.WARNING)
+warning_log.addFilter(LoggingLevelFilter(logging.WARNING))
 
 #to log errors messages
 error_log = logging.FileHandler("logs/error.log")

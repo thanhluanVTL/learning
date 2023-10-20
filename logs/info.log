@@ -1,0 +1,27 @@
+2023-10-20 06:43:42,828 -- main -- INFO -- rid=2F7515 start request path=/
+2023-10-20 06:43:42,833 -- main -- INFO -- logging from the root logger
+2023-10-20 06:43:42,835 -- main -- INFO -- rid=2F7515 completed_in=2.00ms status_code=200
+2023-10-20 06:44:28,402 -- main -- INFO -- rid=00HF0C start request path=/
+2023-10-20 06:44:28,409 -- main -- INFO -- logging from the root logger
+2023-10-20 06:44:28,428 -- main -- INFO -- rid=00HF0C completed_in=19.00ms status_code=200
+2023-10-20 06:50:17,043 -- main -- INFO -- rid=D9U6F7 start request path=/
+2023-10-20 06:50:17,047 -- main -- INFO -- logging from the root logger
+2023-10-20 06:50:17,051 -- main -- INFO -- rid=D9U6F7 completed_in=6.00ms status_code=200
+2023-10-20 07:09:18,672 -- main -- INFO -- rid=5VOVNE start request path=/
+2023-10-20 07:09:18,677 -- main -- INFO -- logging from the root logger
+2023-10-20 07:09:18,680 -- main -- INFO -- rid=5VOVNE completed_in=4.00ms status_code=200
+2023-10-20 07:11:44,892 -- main -- INFO -- rid=VSTZG9 start request path=/
+2023-10-20 07:11:44,894 -- main -- INFO -- logging from the root logger
+2023-10-20 07:11:44,896 -- main -- INFO -- rid=VSTZG9 completed_in=3.00ms status_code=200
+2023-10-20 07:12:22,137 -- main -- INFO -- rid=C4RL96 start request path=/test
+2023-10-20 07:12:22,155 -- main -- INFO -- request /test endpoint!
+2023-10-20 07:12:22,158 -- main -- INFO -- rid=C4RL96 completed_in=3.00ms status_code=200
+2023-10-20 07:13:33,865 -- main -- INFO -- rid=3NDBPZ start request path=/test
+2023-10-20 07:13:33,867 -- main -- INFO -- request /test endpoint!
+2023-10-20 07:13:33,870 -- main -- INFO -- rid=3NDBPZ completed_in=4.00ms status_code=200
+2023-10-20 07:13:40,934 -- main -- INFO -- rid=B68K0I start request path=/
+2023-10-20 07:13:40,935 -- main -- INFO -- logging from the root logger
+2023-10-20 07:13:40,937 -- main -- INFO -- rid=B68K0I completed_in=3.00ms status_code=200
+2023-10-20 07:13:58,690 -- main -- INFO -- rid=EXBN7U start request path=/test
+2023-10-20 07:13:58,692 -- main -- INFO -- request /test endpoint!
+2023-10-20 07:13:58,695 -- main -- INFO -- rid=EXBN7U completed_in=4.00ms status_code=200

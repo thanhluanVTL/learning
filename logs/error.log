@@ -1,6 +1,10 @@
-2023-10-20 06:15:37,052 -- function -- ERROR -- FINISHED FUNCTION
-2023-10-20 06:16:31,836 -- function -- ERROR -- FINISHED FUNCTION
-2023-10-20 06:17:49,114 -- function -- ERROR -- FINISHED FUNCTION
-2023-10-20 06:18:56,890 -- function -- ERROR -- FINISHED FUNCTION
-2023-10-20 06:19:48,343 -- function -- ERROR -- FINISHED FUNCTION
-2023-10-20 06:21:44,871 -- function -- ERROR -- FINISHED FUNCTION
+2023-10-20 06:39:51,005 -- main -- ERROR -- Error == Luan
+2023-10-20 06:41:09,709 -- function -- ERROR -- FINISHED FUNCTION
+2023-10-20 06:41:52,212 -- function -- ERROR -- FINISHED FUNCTION
+2023-10-20 06:50:17,049 -- main -- ERROR -- Error == Luan
+2023-10-20 07:09:18,679 -- main -- ERROR -- Error == Luan
+2023-10-20 07:11:44,895 -- main -- ERROR -- line {lineno} -- Error == Luan
+2023-10-20 07:12:22,157 -- function -- ERROR -- line {lineno} -- FINISHED FUNCTION
+2023-10-20 07:13:33,869 -- function -- ERROR -- line {lineno} -- FINISHED FUNCTION
+2023-10-20 07:13:40,937 -- main -- ERROR -- line {lineno} -- Error == Luan
+2023-10-20 07:13:58,694 -- function -- ERROR -- line {lineno} -- FINISHED FUNCTION
